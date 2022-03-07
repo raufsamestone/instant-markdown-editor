@@ -133,6 +133,20 @@ image:
         <title>{title} </title>
         <meta name="description" content="Create your instant markdown file." />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Instant Markdown Editor" />
+        <meta
+          property="og:description"
+          content="Create your instant markdown file."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://instant-markdown-editor.vercel.app/"
+        />
+        <meta
+          property="og:image"
+          content="https://instant-markdown-editor.vercel.app/og.png"
+        />
       </Head>
 
       <div className="flex items-center place-content-between mb-12 ">
